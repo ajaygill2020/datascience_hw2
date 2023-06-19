@@ -1,4 +1,4 @@
-# homeworkTwo
+# homeworkTwo, problem 2
 
 Development workflows
 =======================
@@ -48,15 +48,16 @@ Here's the folder structure that gets created by `cookiecutter-datascience-simpl
 		│   └───logs						<- Here, you will find the necessary logs
 		│
 		├───docs
-		│      └───whatIf.py						<- Here is the python file that has important functions for us to use.
+		│      └───whatIf.py						<- Here is the python file that has important functions for us to use (optional)
         └───aap_hw2__excel_python_s23_docx						<- Here is the instructions for the assignment.     
 		│
-		└───output
-
-
+        └───gill_hw2.ipynb				<- This is the main notebook file where the work will be done to create a Python script
+		│
+        │
+		├───BCM						<- Copied sheets from data/logs and this has final BCM Excel workbook
+            
+        
 Documentation
 --------------
 
-This assignment contains two types of analyses done in Python using data from .csv files. 
-
-
+This assignment contains two types of analyses done in Python using data from .csv files. This specific problem will concatenate multiple .csv files into one Excel workbook, using Python.
